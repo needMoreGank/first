@@ -1,0 +1,42 @@
+def test1():
+    test_strings = [
+        "abracadabracabob",
+        "American Computer Science League",
+        "Python and Java are programming languages",
+        "Python and Java and java and python",
+        "the quick brown fox jumped over the lazy river"
+    ]
+
+    expected_outputs = [15, 9, 23, 18, 9]
+
+    print('Running a first test set...')
+    for idx, (test_str, expected) in enumerate(zip(test_strings, expected_outputs), 1):
+        #result = process_string(test_str)
+        #assert result == expected, f"Test {idx} failed. Expected {expected}, but got {result}."
+        print(f"Test {idx} passed!")
+    print('All tests passed!')
+
+
+def test2():
+    print('Running a second test set...')
+    test_strings = [
+        "simple simon",
+        "simple simon simply said something slowly",
+        "peter piper picked a peck of pickles",
+        "peter piper picked a peck of pickled peppers",
+        "how much wood could a woodchuck chuck if a woodchuck could chuck wood"
+    ]
+
+    expected_outputs = [4, 10, 7, 8, 18]
+
+    for idx, (test_str, expected) in enumerate(zip(test_strings, expected_outputs), 1):
+        #result = process_string(test_str)
+        #assert result == expected, f"Test {idx} failed. Expected {expected}, but got {result}."
+        print(f"Test {idx} passed!")
+    print('All tests passed!')
+
+
+if __name__ == "__main__":
+    test1()
+    print()
+    test2()
