@@ -1,0 +1,18 @@
+/*
+app/tabs/index
+
+Relationship between components
+HomeScreen() --> DisplayCollapsible1, DisplayCollapsible2: parent function
+<--: childhood function
+DC1 <--> DC2: sibling functions
+*/
+
+state = a hook (gives access to updating/manipulating the states) from React
+to help us to update the state values
+state = the "state" (current snapshot) of your program/part of it 
+
+7/1
+Material Design: A library of Design components
+HW:
+- refine Figma
+
